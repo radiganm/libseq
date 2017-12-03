@@ -11,8 +11,7 @@
 
 #include "packages/midi/MidiEvent.h"
 
-#ifndef midireader_h
-#define midireader_h
+#pragma once
 
   #define MIDI_BUFFER_SIZE (100 * 1024)
 
@@ -38,4 +37,4 @@
 
   };
 
-#endif
+// *EOF*

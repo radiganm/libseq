@@ -5,7 +5,7 @@
 AM_LDFLAGS  = -pthread                                                        
 
 AM_CPPFLAGS = -I$(top_srcdir)/include                                        \
-              -std=c++11
+              -std=c++1z
 AM_FCFLAGS  = -Jmod
 
 seq_ldadd                 = libseq.la                                         

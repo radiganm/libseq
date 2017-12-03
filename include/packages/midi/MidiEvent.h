@@ -5,8 +5,7 @@
 
 #include <inttypes.h>
 
-#ifndef midievent_h
-#define midievent_h
+#pragma once
 
   #define MIDI__MTHD                          (0x4d546864)
   #define MIDI__MTRK                          (0x4d54726b)
@@ -152,4 +151,4 @@ extern "C" {
 
   };
 
-#endif
+// *EOF*
